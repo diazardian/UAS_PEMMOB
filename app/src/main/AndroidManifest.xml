@@ -9,18 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".halamanutama">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HasilUNAS" />
-        <activity android:name=".halamanutama" />
-        <activity android:name=".pilihsoal" />
-        <activity android:name=".pilihan" />
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".HasilUNAS"></activity>
         <activity android:name=".tentang"></activity>
+        <activity android:name=".pilihan"></activity>
+        <activity android:name=".pilihsoal"></activity>
     </application>
 
 </manifest>

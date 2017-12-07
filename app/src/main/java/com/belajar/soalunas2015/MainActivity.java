@@ -18,49 +18,36 @@ public class MainActivity extends AppCompatActivity {
 
     //Pertanyaan Soal UNAS
     String[] pertanyaan_UNAS = new String[]{
-      "1. Sejak itu, jumlahnya bertambah dua kali lipat setiap 25 tahun." +
-            "(1) Setelah tahun 1680, Inggris tidak lagi menjadi sumber terbesar imigrasi." +
-            "(2) Banyak pula orang yang terpaksa meninggalkan kampung halamannya untuk " +
-                "menghindari kemiskinan." +
-            "(3) Pada tahun 1690, populasi penduduk Amerika telah berkembang menjadi seperempat" +
-            "juta orang." +
-            "(4) Ribuan pengungsi berbondong-bondong meninggalkan daratan Eropa untuk melarikan" +
-            "diri dari bencana perang." +
-              "" +
-            "Perbaikan urutan yang tepat untuk menjadi paragraf cerita sejarah yang baik adalah" ,
-      "2. Survey Badan Pusat Stastistik di Indonesia pada tahun 2013 menunjukkan, orang Indonesia" +
-          "paling gemar menonton telivisi, yakni sekitar 91,68 persen,” kata Hamid. Sebelumnya, pada" +
-          "12–13 November 2015, diselenggarakan pelatihan bagi 68 guru dari 33 propinsi mengenai" +
-          "buku pengenalan terhadap jasa keuangan itu. Para peserta pelatihan juga berlatih" +
-          "menggunakan permainan Sikapiuangmu, sebagai penerapan melalui permainan pengenalan" +
-          "produk dan jasa keuangan. Diharapkan, siswa dapat bermain sambil balajar." +
-              "" +
-          "Kata yang tepat untuk memperbaiki kata yang tidak baku dalam paragraf tersebut adalah ...." ,
-      "3. (1) Saya sekarang setiap hari menyempatkan membaca buku, terutama membaca buku\n" +
-              "sastra. (2) Manfaat yang dihasilkan dari sebuah proses membaca karya sastra dapat\n" +
-              "dirasakan langsung oleh penikmat sastra. (3) Menurut saya sebuah karya sastra mempunya\n" +
-              "andil besar dalam menyebarkan manfaat bagi diri lewat keindahannya. (4) Bukan\n" +
-              "sebaliknya, menyebarkan keindahan yang melenakan dan tidak membawa gerak perubahan\n" +
-              "karena sastra lahir dari kejernihan jiwa, dan perasaan seseorang. (5) Oleh sebab itu, manfaat\n" +
-              "tersebut dapat dirasakan antara lain: melembutkan perasan dan hati, memberi kesadaran akan\n" +
-              "kebenaran hidup, kegembiran dan pengobat kegelisahan hati, memberikan penghayatan\n" +
-              "mendalam, dan yang paling penting lagi menjadikan manusia berbudaya dan peka\n" +
-              "lingkungan.\n" +
-              "Kalimat fakta dalam paragraf tersebut, terdapat pada nomor ....\n" ,
+      "1. Jarak fokus lensa obyektif sebuah mikroskop 2 cm dan okulernya 2,5 cm. " +
+              "Sebuah Obyek diletakkan sejauh 2,5 cm didepan lensa obyektif. Apabila mikroskop digunakan dengan" +
+              "mata tidak berakomodasi,maka perbesaran mikroskop adalah...... (Sn=25 cm)",
+       "2. Seberkas cahaya monokromatik dengan panjang gelombang 5*10^7 m mengenai sisi yang terdiri dari N garis/mm." +
+               "Jika sudut deviasi orde pertama sebesar 30 derajat,maka nilai N adalah....",
+       "3. Hasil analisis terhadap suatu senyawa oksida nitrogen menunjukkan bahwa senyawa tersebut" +
+               "mengandung 30% masa nitrogen. Rumus molekul senyawa tersebut (Mr = 92)" +
+               "adalah..... (Ar:N=14,O=16)",
+       "4. Kedalam 1000 mL aquadest dimasukkan padatan Ca(OH)2 sebanyak 3,7 gram lalu diaduk" +
+               "(penambahan volume Ca(OH)2 padat diabaikan). pH larutan setelah seluruh padatan terlarut" +
+               "adalah..... (Ar:Ca=40,O-16,dan H=1)",
+       "5. Pembabatan hutan bakau untuk dijadikan tambak ikan akan berdampak pada...."
     };
 
     //Jawaban Soal UNAS
     String[] jawaban_UNAS = new String[]{
-            "(1),(2),(3),(4),dan(5)","(2),(5),(4),(1),dan(3)","(2),(3),(5),(4),dan(1)","(4),(1),(2),(5),dan(3)","(4),(2),(3),(4),dan(1)",
-            "survai, televisi, propinsi","survei, televisi, provinsi","survei, telipisi, propinsi","survey, telivisi, provinsi","survay, televisi, propinsi",
-            "(1)","(2)","(3)","(4)","(5)",
+            "4 kali","10 kali","30 kali","40 kali","70 kali",
+            "1000 garis/mm","500 garis/mm","100 garis/mm","50 garis/mm","10 garis/mm",
+            "NO2","N2O","N2O3","N2O4","N2O5",
+            "1+log1","2-log5","12+log5","13+log1","13-log5",
+            "Penduduk sekitar pantai banyak terserang penyakit malaria","Hasil tangkapan ikan menurun","Pengasil nelayan meningkat","Harga kayu bakau menurun","Populasi ikan meningkat",
     };
 
     //Jawaban UNAS yang benar
     String[] jawaban_benar = new String[]{
-            "(1),(2),(3),(4),dan(5)",
-            "survei, televisi, provinsi",
-            "(1)",
+            "40 kali",
+            "1000 garis/mm",
+            "N2O4",
+            "12+log5",
+            "Hasil tangkapan ikan menurun",
     };
 
 
@@ -84,29 +71,30 @@ public class MainActivity extends AppCompatActivity {
         PilihanD.setText(jawaban_UNAS[3]);
         PilihanE.setText(jawaban_UNAS[4]);
 
+
     }
 
     public void next(View view) {
-        RadioButton jawaban_user = (RadioButton)findViewById(rg.getCheckedRadioButtonId());
-        String ambil_jawaban_user = jawaban_user.getText().toString();
-        nomor++;
-        if(nomor<pertanyaan_UNAS.length){
-            pertanyaan.setText(pertanyaan_UNAS[nomor]);
-            PilihanA.setText(jawaban_UNAS[(nomor*5)+0]);
-            PilihanB.setText(jawaban_UNAS[(nomor*5)+1]);
-            PilihanC.setText(jawaban_UNAS[(nomor*5)+2]);
-            PilihanD.setText(jawaban_UNAS[(nomor*5)+3]);
-            PilihanE.setText(jawaban_UNAS[(nomor*5)+4]);
-            if (ambil_jawaban_user.equalsIgnoreCase(jawaban_benar[nomor]))benar++;
-            else salah++;
-        }
-        else{
-            hasil=benar*20;
-            Intent selesai = new Intent(getApplicationContext(),HasilUNAS.class);
-            startActivity(selesai);
+    RadioButton jawaban_user = (RadioButton)findViewById(rg.getCheckedRadioButtonId());
+    String ambil_jawaban_user = jawaban_user.getText().toString();
+    if (ambil_jawaban_user.equalsIgnoreCase(jawaban_benar[nomor]))benar++;
+    else salah++;
+    nomor++;
+    if(nomor<pertanyaan_UNAS.length){
+        pertanyaan.setText(pertanyaan_UNAS[nomor]);
+        PilihanA.setText(jawaban_UNAS[(nomor*5)+0]);
+        PilihanB.setText(jawaban_UNAS[(nomor*5)+1]);
+        PilihanC.setText(jawaban_UNAS[(nomor*5)+2]);
+        PilihanD.setText(jawaban_UNAS[(nomor*5)+3]);
+        PilihanE.setText(jawaban_UNAS[(nomor*5)+4]);
+    }
+    else{
+        hasil =benar*20;
+        Intent selesai = new Intent(getApplicationContext(),HasilUNAS.class);
+        startActivity(selesai);
 
-
-        }
 
     }
+
+}
 }

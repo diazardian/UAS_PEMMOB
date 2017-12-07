@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.belajar.soalunas2015.pilihsoal">
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="354dp"
+        android:layout_height="80dp"
+        android:background="#40E0D0"
+        android:text="SOAL UN 2015"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <Button
+        android:id="@+id/button7"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="354dp"
+        android:layout_height="80dp"
+        android:background="#40E0D0"
+        android:text="SOAL UN 2016"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <Button
+        android:id="@+id/button8"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="354dp"
+        android:layout_height="80dp"
+        android:background="#40E0D0"
+        android:text="SOAL UN 2017"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="© Bank Soal UN 2017 "
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="67dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="50dp" />
+</android.support.constraint.ConstraintLayout>

@@ -6,4 +6,29 @@
     android:layout_height="match_parent"
     tools:context="com.belajar.soalunas2015.tentang">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="37dp"
+
+        android:text="
+ Fino Ardiansyah Prayudi (15051204041)
+ Diaz Ardian (15051204002)
+ Mifta Dwi R (15051204002)
+ Bahtiar A (15051204006)
+
+" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:background="#40E0D0"
+            android:layout_alignParentBottom="true"
+            android:onClick="kembali"/>
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

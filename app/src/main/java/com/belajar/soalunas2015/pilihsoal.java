@@ -13,7 +13,15 @@ public class pilihsoal extends AppCompatActivity {
         setContentView(R.layout.activity_pilihsoal);
     }
     public void un15(View view) {
-        Intent un15 = new Intent(getApplicationContext(), MainActivity.class);
+        Intent un15 = new Intent(getApplicationContext(), pilihan.class);
+        startActivity(un15);
+    }
+    public void un16(View view) {
+        Intent un15 = new Intent(getApplicationContext(), Pilihan2016.class);
+        startActivity(un15);
+    }
+    public void un17(View view) {
+        Intent un15 = new Intent(getApplicationContext(), Pilihan2017.class);
         startActivity(un15);
     }
 }

@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Bank Soal"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -16,11 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".HasilUNAS"></activity>
-        <activity android:name=".tentang"></activity>
-        <activity android:name=".pilihan"></activity>
-        <activity android:name=".pilihsoal"></activity>
+        <activity android:name=".MainActivity"
+            android:label="Soal IPA"/>
+        <activity android:name=".HasilUNAS"
+            android:label="Hasil"/>
+        <activity android:name=".tentang"
+            android:label="Tentang"/>
+        <activity android:name=".pilihan" />
+        <activity android:name=".pilihsoal" />
+        <activity android:name=".ips2015"
+            android:label="Soal IPS"
+            />
+        <activity android:name=".Hasilips"
+            android:label="Hasil"
+            />
+        <activity android:name=".Pilihan2016" />
+        <activity android:name=".Pilihan2017"></activity>
     </application>
 
 </manifest>

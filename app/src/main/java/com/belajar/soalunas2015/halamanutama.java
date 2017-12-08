@@ -19,4 +19,10 @@ public class halamanutama extends AppCompatActivity {
         Intent tentang = new Intent(getApplicationContext(), tentang.class);
         startActivity(tentang);
     }
+    public void keluar(View view) {
+
+        moveTaskToBack(true);
+        android.os.Process.killProcess(android.os.Process.myPid());
+        System.exit(1);
+    }
 }

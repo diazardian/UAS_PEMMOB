@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.belajar.soalunas2015.pilihan">
+    tools:context="com.belajar.soalunas2015.Pilihan2016">
 
     <Button
         android:id="@+id/button9"
@@ -15,7 +15,6 @@
         android:layout_marginEnd="22dp"
         android:layout_marginStart="16dp"
         android:background="#40E0D0"
-        android:onClick="ipa"
         android:text="IPA"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
@@ -33,7 +32,6 @@
         android:layout_marginEnd="16dp"
         android:layout_marginTop="173dp"
         android:background="#40E0D0"
-        android:onClick="ips"
         android:text="IPS"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
@@ -66,4 +64,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo"
         tools:ignore="MissingConstraints" />
+
 </android.support.constraint.ConstraintLayout>

@@ -17,8 +17,8 @@ public class pilihsoal extends AppCompatActivity {
         startActivity(un15);
     }
     public void un16(View view) {
-        Intent un15 = new Intent(getApplicationContext(), Pilihan2016.class);
-        startActivity(un15);
+        Intent un16 = new Intent(getApplicationContext(), Pilihan2016.class);
+        startActivity(un16);
     }
     public void un17(View view) {
         Intent un15 = new Intent(getApplicationContext(), Pilihan2017.class);

@@ -25,13 +25,15 @@
         <activity android:name=".pilihan" />
         <activity android:name=".pilihsoal" />
         <activity android:name=".ips2015"
-            android:label="Soal IPS"
-            />
+            android:label="Soal IPS" />
         <activity android:name=".Hasilips"
-            android:label="Hasil"
-            />
+            android:label="Hasil" />
         <activity android:name=".Pilihan2016" />
         <activity android:name=".Pilihan2017"></activity>
+        <activity android:name=".ipa2016"
+            android:label="Soal IPA 16" />
+        <activity android:name=".ips2016"
+            android:label="Soal IPS 16>" />
     </application>
 
 </manifest>

@@ -19,14 +19,19 @@ public class ips2016 extends AppCompatActivity {
 
     //Pertanyaan Soal UNAS
     String[] pertanyaan_UNASips = new String[]{
-            //"1. Hujan deras,gempabumi,tanah longsor,angin puting beliung, dan banjir merupakan " +
-              //      "peristiwa yang sering melanda beberapa wilayah di negara kita." +
-               //     "Pendekatan geografi yang paling tepat untuk mengkaji peristiwa tersebut adalah ....",
-            //"2. Kondisi arus urbanisasi yang meningkat paksa lebaran hingga menambah kepadatan penduduk " +
-              //      "di daerah kota serta menambah kemacetan lalu lintas di perkotaan. " +
-               //     "Kondisi tersebut dalam geografi termasuk unsur .... ",
-            //"3. Sebagian besar menghendaki perubahan ke arah yang lebih baik di segala bidang kehidupan " +
-              //      "seperti bidang politik,hukum,ekonomi,dan sosial. Perwujudan nilai yang mendasari perilaku tersebut adalah nilai ....",
+            "1. Pemakaian sumber minyak bumi yang sangat besar untuk berbagai keperluan telah menguras" +
+                    "sumber - sumber minyak bumi dunia semakin lama semakin berkurang. Memang sampai sekarang" +
+                    "minyak bumi masih merupakan sumber energi utama sebagai keperluan kehidupan manusia," +
+                    "terutama untuk berbagai macam industri dan transportasi. Bila tidak ditemukan sumber energi lain" +
+                    "sebagai sumber energi alternatif, dalam waktu tidak lama lagi dunia akan mengalami krisis  energi." +
+                    "Simpulan yang dapat ditarik dari paragraf itu adalah",
+            "Most  people  in  Nepal  are  farmers.  They  live  in  stone  or  timber  houses  with  thatched  or  slab +
+            "roofing. They grow rice, which is their main crop, maize, barley, potatoes, and vegetables. Sheep are their +
+            "main source of meet. Cows are kept to produce milk. Donkeys, mules, and dzose are used to carry goods" +
+                    "Nepal is an isolated country so hardly any modernizing has occurred. They have few facilities and mainly" +
+                    "live on their intensive subsistence agriculture.\n " +
+                    "2. The text mainly talks about.......",
+            "3. Ingkaran dari “ Ada bunga yang tidak harum” adalah....",
             //"4. Para pengendara di jalan raya harus memahami dan menyesuaikan tindakannya dengan norma dan nilai yang berlaku. " +
               //      "Deskripsi tersebut menunjukkan adanya unsur pembentuk keteraturan sosial yaitu ....",
             //"5. Perusahaan mengadakan survei produk baru untuk mendapat data masyarakat mana yang menyukai produk barunya. " +
@@ -36,18 +41,18 @@ public class ips2016 extends AppCompatActivity {
 
     //Jawaban Soal UNAS
     String[] jawaban_UNASips = new String[]{
-            "Pendekatan keruangan","Pendekatan kelingkungan","Pendekatan kompleks wilayah","Pendekatan ekologi","Pendekatan korologi",
-            "Atmosfer","Litosfer","Hidrosfer","Biosfer","Antroposfer",
-            "Dominan","Material","Kerohanian","Kebaikan","Vital",
+            "Minyak bumi bukan satu - satunya sumber energi","Perlunya sumber energi alternatif dalam kehidupan","Pemakai sumber minyak bumi sangat besar","Persediaan minyak bumi semakin berkurang","Dunia akan mengalami krisis energi",
+            "the borders of Nepal","the animals in Nepal","the facilities in Nepal","the people in Nepal","the scenery in Nepal",
+            "Semua bunga harum baunya","Semua bunga tidak harum baunya","Ada bunga harum baunya","Ada bunga yang tidak harum atau Ada bunga harum ","Ada bunga yang tidak harum, tetapi ada juga bunga yang harum",
             "Pola perilaku","Tertib sosial","Order","Keajegan","Tindakan sosial",
             "Bagaimana cara menyalurkannya","Berapa banyak barang diproduksi","Barang apa yang akan diproduksi","Bagaimana cara memproduksi","Untuk siapa barang diproduksi",
     };
 
     //Jawaban UNAS yang benar
     String[] jawaban_benar = new String[]{
-            "Pendekatan ekologi",
-            "Antroposfer",
-            "Dominan",
+            "Dunia akan mengalami krisis energi",
+            "the people in Nepal",
+            "Ada bunga harum baunya",
             "Tertib sosial",
             "Untuk siapa barang diproduksi",
 

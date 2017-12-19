@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import java.lang.*;
 
 public class ipa2016 extends AppCompatActivity {
     TextView pertanyaan;
@@ -15,37 +16,41 @@ public class ipa2016 extends AppCompatActivity {
     int nomor = 0;
     public static int hasil,benar,salah;
 
-
     //Pertanyaan Soal UNAS
     String[] pertanyaan_UNAS = new String[]{
-      //"1. Jarak fokus lensa obyektif sebuah mikroskop 2 cm dan okulernya 2,5 cm. " +
-        //      "Sebuah Obyek diletakkan sejauh 2,5 cm didepan lensa obyektif. Apabila mikroskop digunakan dengan" +
-          //    "mata tidak berakomodasi,maka perbesaran mikroskop adalah...... (Sn=25 cm)",
-       //"2. Seberkas cahaya monokromatik dengan panjang gelombang 5*10^7 m mengenai sisi yang terdiri dari N garis/mm." +
-         //      "Jika sudut deviasi orde pertama sebesar 30 derajat,maka nilai N adalah....",
-       //"3. Hasil analisis terhadap suatu senyawa oksida nitrogen menunjukkan bahwa senyawa tersebut" +
-         //      "mengandung 30% masa nitrogen. Rumus molekul senyawa tersebut (Mr = 92)" +
-          //     "adalah..... (Ar:N=14,O=16)",
-       //"4. Kedalam 1000 mL aquadest dimasukkan padatan Ca(OH)2 sebanyak 3,7 gram lalu diaduk" +
-         //      "(penambahan volume Ca(OH)2 padat diabaikan). pH larutan setelah seluruh padatan terlarut" +
-          //     "adalah..... (Ar:Ca=40,O-16,dan H=1)",
-      // "5. Pembabatan hutan bakau untuk dijadikan tambak ikan akan berdampak pada...."
+      "1. Pemakaian sumber minyak bumi yang sangat besar untuk berbagai keperluan telah menguras" +
+              "sumber - sumber minyak bumi dunia semakin lama semakin berkurang. Memang sampai sekarang" +
+              "minyak bumi masih merupakan sumber energi utama sebagai keperluan kehidupan manusia," +
+              "terutama untuk berbagai macam industri dan transportasi. Bila tidak ditemukan sumber energi lain" +
+              "sebagai sumber energi alternatif, dalam waktu tidak lama lagi dunia akan mengalami krisis  energi." +
+              "Simpulan yang dapat ditarik dari paragraf itu adalah",
+       "Most  people  in  Nepal  are  farmers.  They  live  in  stone  or  timber  houses  with  thatched  or  slab +
+               "roofing. They grow rice, which is their main crop, maize, barley, potatoes, and vegetables. Sheep are their +
+               "main source of meet. Cows are kept to produce milk. Donkeys, mules, and dzose are used to carry goods" +
+               "Nepal is an isolated country so hardly any modernizing has occurred. They have few facilities and mainly" +
+               "live on their intensive subsistence agriculture.\n " +
+       "2. The text mainly talks about.......",
+       "3. Ingkaran dari “ Ada bunga yang tidak harum” adalah....",
+       "4. Kedalam 1000 mL aquadest dimasukkan padatan Ca(OH)2 sebanyak 3,7 gram lalu diaduk" +
+               "(penambahan volume Ca(OH)2 padat diabaikan). pH larutan setelah seluruh padatan terlarut" +
+               "adalah..... (Ar:Ca=40,O-16,dan H=1)",
+       "5. Pembabatan hutan bakau untuk dijadikan tambak ikan akan berdampak pada...."
     };
 
     //Jawaban Soal UNAS
     String[] jawaban_UNAS = new String[]{
-            "4 kali","10 kali","30 kali","40 kali","70 kali",
-            "1000 garis/mm","500 garis/mm","100 garis/mm","50 garis/mm","10 garis/mm",
-            "NO2","N2O","N2O3","N2O4","N2O5",
+            "Minyak bumi bukan satu - satunya sumber energi","Perlunya sumber energi alternatif dalam kehidupan","Pemakai sumber minyak bumi sangat besar","Persediaan minyak bumi semakin berkurang","Dunia akan mengalami krisis energi",
+            "the borders of Nepal","the animals in Nepal","the facilities in Nepal","the people in Nepal","the scenery in Nepal",
+            "Semua bunga harum baunya","Semua bunga tidak harum baunya","Ada bunga harum baunya","Ada bunga yang tidak harum atau Ada bunga harum ","Ada bunga yang tidak harum, tetapi ada juga bunga yang harum",
             "1+log1","2-log5","12+log5","13+log1","13-log5",
             "Penduduk sekitar pantai banyak terserang penyakit malaria","Hasil tangkapan ikan menurun","Pengasil nelayan meningkat","Harga kayu bakau menurun","Populasi ikan meningkat",
     };
 
     //Jawaban UNAS yang benar
     String[] jawaban_benar = new String[]{
-            "40 kali",
-            "1000 garis/mm",
-            "N2O4",
+            "Dunia akan mengalami krisis energi",
+            "the people in Nepal",
+            "Ada bunga harum baunya",
             "12+log5",
             "Hasil tangkapan ikan menurun",
     };

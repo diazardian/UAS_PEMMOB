@@ -95,7 +95,7 @@ public class ipa2016 extends AppCompatActivity {
     }
     else{
         hasil =benar*20;
-        Intent selesai = new Intent(getApplicationContext(),HasilUNAS.class);
+        Intent selesai = new Intent(getApplicationContext(),HasilUnasipa16.class);
         startActivity(selesai);
 
 

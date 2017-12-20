@@ -16,32 +16,44 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"
-            android:label="Soal IPA"/>
-        <activity android:name=".HasilUNAS"
-            android:label="Hasil"/>
-        <activity android:name=".tentang"
-            android:label="Tentang"/>
+        <activity
+            android:name=".MainActivity"
+            android:label="Soal IPA" />
+        <activity
+            android:name=".HasilUNAS"
+            android:label="Hasil" />
+        <activity
+            android:name=".tentang"
+            android:label="Tentang" />
         <activity android:name=".pilihan" />
         <activity android:name=".pilihsoal" />
-        <activity android:name=".ips2015"
+        <activity
+            android:name=".ips2015"
             android:label="Soal IPS" />
-        <activity android:name=".Hasilips"
+        <activity
+            android:name=".Hasilips"
             android:label="Hasil" />
         <activity android:name=".Pilihan2016" />
-        <activity android:name=".Pilihan2017"></activity>
-        <activity android:name=".ipa2016"
+        <activity android:name=".Pilihan2017" />
+        <activity
+            android:name=".ipa2016"
             android:label="Soal IPA 16" />
-        <activity android:name=".ips2016"
+        <activity
+            android:name=".ips2016"
             android:label="Soal IPS 16>" />
-        <activity android:name=".ipa2017"
-            android:label="Soal IPS"/>
-        <activity android:name=".ips2017"
-            android:label="Soal IPS"/>
-        <activity android:name=".Hasilipa17"
-            android:label="Hasil IPA"/>
-        <activity android:name=".Hasilips17"
-            android:label="Hasil IPS"/>
+        <activity
+            android:name=".ipa2017"
+            android:label="Soal IPS" />
+        <activity
+            android:name=".ips2017"
+            android:label="Soal IPS" />
+        <activity
+            android:name=".Hasilipa17"
+            android:label="Hasil IPA" />
+        <activity
+            android:name=".Hasilips17"
+            android:label="Hasil IPS" />
+        <activity android:name=".HasilUnasipa16"></activity>
     </application>
 
 </manifest>

@@ -34,6 +34,14 @@
             android:label="Soal IPA 16" />
         <activity android:name=".ips2016"
             android:label="Soal IPS 16>" />
+        <activity android:name=".ipa2017"
+            android:label="Soal IPS"/>
+        <activity android:name=".ips2017"
+            android:label="Soal IPS"/>
+        <activity android:name=".Hasilipa17"
+            android:label="Hasil IPA"/>
+        <activity android:name=".Hasilips17"
+            android:label="Hasil IPS"/>
     </application>
 
 </manifest>

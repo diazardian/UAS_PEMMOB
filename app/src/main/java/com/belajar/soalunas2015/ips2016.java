@@ -25,8 +25,8 @@ public class ips2016 extends AppCompatActivity {
                     "terutama untuk berbagai macam industri dan transportasi. Bila tidak ditemukan sumber energi lain" +
                     "sebagai sumber energi alternatif, dalam waktu tidak lama lagi dunia akan mengalami krisis  energi." +
                     "Simpulan yang dapat ditarik dari paragraf itu adalah",
-            "Most  people  in  Nepal  are  farmers.  They  live  in  stone  or  timber  houses  with  thatched  or  slab +
-            "roofing. They grow rice, which is their main crop, maize, barley, potatoes, and vegetables. Sheep are their +
+            "Most  people  in  Nepal  are  farmers.  They  live  in  stone  or  timber  houses  with  thatched  or  slab" +
+            "roofing. They grow rice, which is their main crop, maize, barley, potatoes, and vegetables. Sheep are their" +
             "main source of meet. Cows are kept to produce milk. Donkeys, mules, and dzose are used to carry goods" +
                     "Nepal is an isolated country so hardly any modernizing has occurred. They have few facilities and mainly" +
                     "live on their intensive subsistence agriculture.\n " +

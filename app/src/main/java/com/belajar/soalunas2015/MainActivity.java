@@ -56,6 +56,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        hasil=0;
+        benar=0;
+        salah=0;
+
         pertanyaan = (TextView)findViewById(R.id.pertanyaan);
         rg = (RadioGroup)findViewById(R.id.radio_grup);
         PilihanA = (RadioButton)findViewById(R.id.pilihanA);

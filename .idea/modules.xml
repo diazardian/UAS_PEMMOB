@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/UAS_PEMMOB.iml" filepath="$PROJECT_DIR$/UAS_PEMMOB.iml" />
       <module fileurl="file://C:\UAS_PEMMOB-master\UAS_PEMMOB.iml" filepath="C:\UAS_PEMMOB-master\UAS_PEMMOB.iml" />
-      <module fileurl="file://$PROJECT_DIR$/UAS_PEMMOB-master.iml" filepath="$PROJECT_DIR$/UAS_PEMMOB-master.iml" />
+      <module fileurl="file://D:\UAS_PEMMOB\UAS_PEMMOB-master.iml" filepath="D:\UAS_PEMMOB\UAS_PEMMOB-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://C:\UAS_PEMMOB-master\app\app.iml" filepath="C:\UAS_PEMMOB-master\app\app.iml" />
     </modules>

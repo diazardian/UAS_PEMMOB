@@ -57,6 +57,9 @@ public class ips2015 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ips2015);
+        hasil=0;
+        salah=0;
+        benar=0;
 
         pertanyaan = (TextView)findViewById(R.id.pertanyaan);
         rg = (RadioGroup)findViewById(R.id.radio_grup);

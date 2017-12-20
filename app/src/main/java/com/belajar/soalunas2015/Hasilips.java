@@ -12,8 +12,8 @@ public class Hasilips extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hasilips);
-        TextView hasil1 = (TextView)findViewById(R.id.hasil);
-        TextView nilai1 = (TextView)findViewById(R.id.nilai);
+        TextView hasil1 = (TextView)findViewById(R.id.hasil1);
+        TextView nilai1 = (TextView)findViewById(R.id.nilai1);
 
         hasil1.setText("Jawaban Benar : "+ips2015.benar+"Jawaban Salah : "+ips2015.salah);
         nilai1.setText(""+ips2015.hasil);
